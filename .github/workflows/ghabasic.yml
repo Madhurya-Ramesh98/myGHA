@@ -1,6 +1,7 @@
 name: GHA from scratch
 on: 
-   push
+   push:
+      branches: featurebranch
    # [workflow_dispatch] for manual trigger, works only for main branch 
 
 jobs:
