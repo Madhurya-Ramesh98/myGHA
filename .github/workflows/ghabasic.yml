@@ -5,7 +5,7 @@ on:
          name :
             description: 'name of the person'
             required: true #a required field is added when it asks for name
-            default: 'Madhurya'# takes default name as Madhurya u can give something else and run the pipeline too
+            default: 'Madhurya'# shows default name as Madhurya if u dont provide the name
          country:
             description: 'name of the country'
             required: false
