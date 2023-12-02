@@ -33,7 +33,7 @@ jobs:
          steps:
          
              - name: greet the user
-               run: echo "Hi ${{github.event.inputs.name}}"
-                    echo "- in ${{github.event.inputs.country}}"
+               run: echo "Hi ${{github.event.inputs.name}}
+                     in ${{github.event.inputs.country}}"
          
             
