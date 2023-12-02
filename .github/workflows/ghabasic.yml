@@ -24,7 +24,16 @@ jobs:
       needs: print
       steps:
             
-          - uses: actions/checkout@v3
+          # - uses: actions/checkout@v3 
           - name: printing second statement
             run: echo abc
+
+   greetuser:     
+         runs-on: ubuntu-latest
+         steps:
+         
+             - name: greet the user
+               run: echo "Hi ${{github.event.inputs.name}}"
+                    echo "in ${{github.event.inputs.country}}
+         
             
