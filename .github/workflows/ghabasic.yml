@@ -1,8 +1,14 @@
 name: GHA from scratch
-on: 
-   push
-   # [workflow_dispatch] for manual trigger, works only for main branch 
-
+on:
+   workflow_dispatch:
+      inputs :
+         name :
+            description: 'name of the person'
+            required: true
+            default: 'Madhurya'
+         country:
+            description: 'name of the country'
+            required: false
 jobs:
    print:
       runs-on: ubuntu-latest
