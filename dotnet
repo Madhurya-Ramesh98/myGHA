@@ -1,0 +1,19 @@
+using system;
+namespace HelloWorldApp{
+  
+  class Geeks{
+      static void main(string[] args){
+
+          Console.WriteLine("hello world!");
+      }
+  }
+  
+
+
+
+
+
+
+
+  
+}
